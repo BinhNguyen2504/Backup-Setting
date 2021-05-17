@@ -1,0 +1,19 @@
+Ctrl + P: 
+- Tìm file thì ghi tên file là đc
+- Tìm chức năng/snippet thì thêm ">"
+- Tìm trong file hiện tại thì thêm "@"
+Ctrl + Shift + F: tìm từ trong toàn thư mục
+Ctrl + F4: đóng file hiện hành
+Ctrl + 2: để tạo 2 màn hình
+Ctrl + 1/2: di chuyển giữa 2 màn hình
+Ctrl + Alt + O: xóa những import không được dụng
+/**
+ * !Warnings
+ * ?Queries
+ * *Highlights
+ * Todo: NGUYEN VAN BINH
+*/
+//!Warnings
+//?Queries
+//*Highlights
+//TODO NGUYEN VAN BINH

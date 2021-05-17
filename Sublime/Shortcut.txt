@@ -1,0 +1,68 @@
+1. Phím tắt chỉnh sửa trên Sublime Text 3
+Ctrl + X: Cắt dòng.
+Ctrl + Shift + Enter: Thêm dòng phía trên con trỏ.
+Ctrl + Enter: Thêm dòng phía dưới con trỏ.
+Ctrl + Shift + ↑: Đưa dòng hiện tại lên trên 1 dòng.
+Ctrl + Shift + ↓: Đưa dòng hiện tại xuống dưới 1 dòng.
+Ctrl + L: Bôi đen cả dòng và đưa con trỏ xuống dòng tiếp theo.
+Ctrl + D: Bôi đen từ đang được trỏ.
+Ctrl + M: Đưa trỏ đến dấu đóng ngoặc gần nhất (ví dụ trong câu lệnh if-else).
+Ctrl + Shift + M: Bôi đen toàn bộ nội dung trong cặp dấu ngoặc.
+Ctrl + K: Xóa hết đến cuối dòng bắt đầu từ vị trí con trỏ.
+Ctrl + K + Backspace: Xóa hết đến đầu dòng bắt đầu từ vị trí con trỏ.
+Ctrl + ]: Tab dòng hiện tại vào trong 1 tab.
+Ctrl+ [: Lùi dòng hiện tại ra ngoài 1 tab.
+Ctrl + Shift + D: Nhân đôi dòng hiện tại hoặc khối lệnh được bôi đen.
+Ctrl + J: Nối dòng phía dưới xuống cuối dòng hiện tại của con trỏ.
+Ctrl + /: Comment 1 dòng lệnh kiểu //.
+Ctrl + Shift + /: Comment 1 khối dòng lệnh kiểu /**/.
+Ctrl + Y: Lấy lại những thao tác vừa bị Undo.
+Ctrl + Shift + V: Dán và đưa con trỏ xuống cuối dòng.
+Ctrl + Space: Bật gợi ý.
+Ctrl + U: Undo lặp lại những thao tác trước đó.
+2 .Phím tắt điều hướng/di chuyển
+Ctrl + P: Mở nhanh file bằng cách gõ tên.
+Ctrl + R: Đi đến vị trí ký tự được gõ.
+Ctrl + ;: Đi đến vị trí ký tự được gõ ở trong file hiện tại.
+Ctrl + G: Đi đến số dòng được gõ.
+3. Phím tắt cài đặt chung
+Ctrl + Shift + P: Mở command line.
+Ctrl + K/B: Đóng mở hiển thị danh sách file (ở bên trái màn hình).
+Ctrl + Shift + Alt + P: Hiện phạm vi trong thanh trạng thái.
+4. Phím tắt chia màn hình Sublime Text 3
+Alt + Shift + 2: Mở thêm 1 view (Chia đôi màn hình hiện tại).
+Alt + Shift + 1: Trở về 1 view như mặc định.
+Alt + Shift + 5: Chia thành 4 màn hình view.
+Ctrl + 2: Nhảy đến màn hình số 2.
+Ctrl + Shift + 2: Chuyển file hiện tại đến màn hình số 2.
+5. Phím tắt với văn bản
+Ctrl + K,U: Chuyển chữ ở con trỏ/bôi đen thành chữ hoa.
+Ctrl + K,L: Chuyển chữ ở con trỏ/bôi đen thành chữ thường.
+Shift+Ctrl+K: Xóa dòng.
+Ctrl+Backspace: Xóa ký tự đằng trước.
+Ctrl+Del: Xóa ký tự đằng sau.
+Alt+Ctrl+Down: Thêm dòng dưới con trỏ.
+Ctrl+K, Ctrl+D: Bỏ qua lựa chọn.
+Shift+L: Chia vùng chọn thành các dòng.
+Alt+F3: Thêm con trỏ ở tất cả các vị trí có 1 từ.
+Alt+Ctrl+UP :Thêm dòng mới ở trên vị trí con trỏ.
+6. Phím tắt Code Folding and Marks
+Ctrl+K, Ctrl+G: Xóa nhãn.
+Ctrl+K,X: Di chuyển vị trí nhãn.
+Ctrl+K, A: Chọn nhãn.
+Ctrl+K+[SPACE] : Đặt nhãn.
+Ctrl+K,J : Mở tất cả.
+Shift+Ctrl+]: Mở code.
+Shift+Ctrl+[: Đóng code.
+7. Phím tắt tabs
+Ctrl+Shift+T : Mở tab vừa được đóng cuối cùng.
+Ctrl+PgUp: Mở tab theo một vòng từ trái qua phải.
+Ctrl+PgDown: Mở tab theo một vòng từ phải qua trái.
+Ctrl+Tab: Mở tab tiếp theo.
+Ctrl + [NUMBER]: Mở tab số [NUMBER].
+8. Phím tắt bookmark
+Ctrl + F2: Đóng mở bookmark.
+Alt+F2: Chọn tất cả bookmark.
+F2: Bookmark tiếp theo.
+Shift+F2: Bookmark phía trước.
+Ctrl+Shift+F2: Xóa bookmark.

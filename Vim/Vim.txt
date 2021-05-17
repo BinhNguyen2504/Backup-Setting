@@ -1,0 +1,56 @@
+:q! -> thoát không lưu
+:w: Lưu văn bản
+:wq -> lưu và thoát file
+u -> ctrl Z
+Ctrl - r: Redo
+U -> quay lại tất cả thao tác trên 1 dòng
+Ctrl - R: siêu quay lại
+
+
+gg -> lên đầu trang
+G -> xuống cuối trang
+Ctrl + g -> hiện thứ tự dòg hiện tại
+490 + G -> đi đến dòng 490
+
+e -> đi đến cuối chữ (end)
+b -> đi đến đầu chữ (begin)
+B -> đi đến đầu chữ (Begin): các chữ được ngăn cách bởi khoảng trắng
+w -> di chuyển sang từng chữ kế bên (word)
+$ -> đi đến cuối dòng
+0 -> đi đến đầu dòng
+Ctrl-y: cuộn lên văn bản một dòng
+Ctrl-e: cuộn xuống văn bản một dòng
+Ctrl-u: cuộn lên văn bản nửa màn hình
+Ctrl-d: cuộn xuống văn bản nửa màn hình
+
+10k -> đi lên 10 dòng
+5j -> đi xuống 5 dòng
+3w -> di chuyển 3 chữ 
+
+de -> xóa từ vị trí hiện tại đến cuối chữ
+dw -> xóa từ vị trí hiện tại đến hết cả chữ (gồm dấu cách)
+d$ -> xóa từ vị trị hiện tại tới cuối dòng
+dd -> xóa cả dòng
+yy -> copy cả dòng
+d3w -> xóa 3 chữ 
+3dd -> xóa 3 dòng
+
+
+r -> replace (Ex: re -> thay kí tự tại con trỏ thành e)
+x: Xóa kí tự tại con trỏ
+y: Copy phần văn văn bản đã chọn trong chế độ VISUAL
+p: Paste phần văn bản đã lưu
+
+
+Thay đổi chữ:
+Cách 1: dw -> xóa chữ => i -> insert chữ mới
+Cách 2: cw -> xóa chứ hiện tại rồi cho mình điền chữ mới vào luôn
+
+c$: replace từ vị trí hiện tại đến cuối dòng
+
+/error -> tìm chuối "error"
+n -> tìm chuỗi tiếp theo 
+N -> quay lại chuỗi trước mới tìm được
+
+% -> tìm dấu ngoặc đối xứng với dấu hiện tại
+A -> thêm chữ ở cuối dòng (append)
