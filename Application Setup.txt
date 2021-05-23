@@ -1,0 +1,34 @@
+Font chữ
+Badicam
+FileZilla
+Ideal
+Java Jdk
+Notion
+Nodejs
+Postman
+Python
+Qtranslate
+StartUML
+Translucent
+Zalo
+NitroPro
+MongoDBCompass
+Vim + Neovim
+Ubuntu
+Cmder
+Git
+Teamviewer
+
+
+Mingw
+Ubuntu + Terminal  + Ruby + Nodejs
+Wsl
+Setup Git
+Vim 
+
+
+Visual Studio
+Visual Studio Code
+Sublime
+
+
