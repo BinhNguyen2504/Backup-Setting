@@ -1,7 +1,7 @@
 Font chữ
 Badicam
 FileZilla
-Ideal
+Ideal Idea
 Java Jdk
 Notion
 Nodejs
@@ -12,7 +12,7 @@ StartUML
 Translucent
 Zalo
 NitroPro
-MongoDBCompass
+MongoDBCompass + Mongo
 Vim + Neovim
 Ubuntu
 Cmder
@@ -24,11 +24,9 @@ Mingw
 Ubuntu + Terminal  + Ruby + Nodejs
 Wsl
 Setup Git
-Vim 
+Vim + Gvim
 
 
 Visual Studio
 Visual Studio Code
 Sublime
-
-
