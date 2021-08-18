@@ -1,0 +1,3 @@
+https://techsupportwhale.com/install-gcc-compiler-on-windows/
+
+https://sourceforge.net/projects/mingw/

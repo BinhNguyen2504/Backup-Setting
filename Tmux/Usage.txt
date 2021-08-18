@@ -1,0 +1,34 @@
+# Các lệnh cơ bản trong Tmux
+
+> Thứ tự chia trong tmux: Session > Window (cửa sổ) > Pane
+## Các lệnh làm việc với session:
+Tạo một session mới: tmux
+Tạo một session mới kèm theo tên gọi: tmux new -s s_name
+Attach session: tmux a
+Attach session đã được đặt tên: tmux a -t s_name
+Hiển thị danh sách các sessions: tmux ls
+Xoá một session: tmux kill-session -t s_name
+
+## Khi đã ở trong tmux:
+> Prefix: Ctrl + b --> Key binding: Ctrl + Space
+Detach session hiện tại: D
+
+### Các lệnh làm việc với cửa sổ:
+Tạo một cửa sổ mới: C
+Đóng cửa sổ: &
+Xem danh sách cửa sổ hiện tại: W
+Chuyển đến cửa sổ tiếp theo hoặc trước đó: N/P
+Tìm kiếm cửa sổ: F
+Đặt/Đổi tên cho cửa sổ: ,
+
+### Các lệnh làm việc với các panel trong 1 cửa sổ:
+Di chuyển giữa các pane: O hoặc Ctrl + L
+Chia đôi màn hình theo chiều dọc: %
+Chia đôi màn hình theo chiều ngang: "
+Thay đổi kích thước panel hiện đang đứng: arrow
+Xoá panel: X
+
+
+
+
+

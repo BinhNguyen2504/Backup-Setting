@@ -48,9 +48,17 @@ Cách 2: cw -> xóa chứ hiện tại rồi cho mình điền chữ mới vào 
 
 c$: replace từ vị trí hiện tại đến cuối dòng
 
-/error -> tìm chuối "error"
+/: search
+Ex: /error -> tìm chuối "error"
 n -> tìm chuỗi tiếp theo 
 N -> quay lại chuỗi trước mới tìm được
 
 % -> tìm dấu ngoặc đối xứng với dấu hiện tại
 A -> thêm chữ ở cuối dòng (append)
+
+
+PlugIn
+nerdcommenter: //
+vim-tmux-navigator
+vim-surround
+vim-snippet

@@ -1,0 +1,50 @@
+.mtk3 {
+  color: transparent;
+  background-image: linear-gradient(to right top, #c29ffd 50%, #ffb4dc);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.mtk18 {
+  color: transparent;
+  background-image: linear-gradient(to right bottom, #0c97fa, #16e1f5);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.mtk17 {
+  color: transparent;
+  background-image: linear-gradient(to right top, #9a86fd, #6a5af9);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.mtk13 {
+  color: transparent;
+  background-image: linear-gradient(to right bottom, #20e3b2 60%, #2cccff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.mtk16 {
+  color: transparent;
+  background-image: linear-gradient(to right top, #fc6c8f, #ff2ced);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+/*
+Install extension:
+Custom CSS and JS Loader
+Fix VSCode Checksums
+Config setting.json:
+"vscode_custom_css.imports": [
+  "file:///C:/Users/USER/AppData/Roaming/Code/User/color.css"
+],
+Run: Ctrl + Shift + P
+Enable Custom CSS and JS -> Restart VSCode
+Fix Checksum: Restore
+Fix Checksum: Apply
+*/
