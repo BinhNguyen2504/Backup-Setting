@@ -1,0 +1,6 @@
+Terminal: Là thiết bị đầu cuối, nó sẽ nhận input và trả ra output cho người dùng.
+Shell: Là chương trình đọc các lệnh người dùng nhập vào, dịch nó ra và truyền đến terminal. Các Shell phổ biến như Zsh, Bash trên Linux, CMD và PowerShell trên Windows.
+Command Prompt (CMD): Tên đầy đủ của nó là Windows Command Processor. Nó là một chương tình giao diện dòng lệnh ra đời từ thời Windows mới xuất hiện. Nó giúp chúng ta thao tác với chương trình máy tình thông qua các câu lệnh (command).
+PowerShell (PS): Ra mắt lần đầu năm 2006 (Windows 7), PS thừa hưởng hầu như mọi thứ mà CMD có, đặc biệt là nó phức tạp và mạnh mẽ hơn rất nhiều so với CMD truyền thống. Nó là một ngôn ngữ kịch bản, sử dụng các lệnh gần ngôn ngữ tự nhiên được gọi là cmdlet.
+Windows Subsystem for Linux (WSL): Windows 10 ra mắt tính năng WSL cho phép chúng ta chạy hệ điều hành Linux ngay trên máy Windows.
+Windows Terminal (WT): Được Microsoft ra mắt năm 2019, WT sở hữu nhiều tính năng vô cùng ưu việt giúp tăng hiệu suất làm việc của người dùng terminal lên nhiều lần và WT là một dự án mã nguồn mở 😱

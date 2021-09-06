@@ -1,0 +1,63 @@
+# Config PowerShell
+
+## Theme for Window Terminal
+https://windowsterminalthemes.dev/
+Example: Dracula
+
+## Font Family
+[NERD Font](https://www.nerdfonts.com/font-downloads)
+Example: Caskaydia Cove Nerd Font
+
+## Powerline Theme
+[Oh My Posh](https://ohmyposh.dev/docs/pwsh)
+
+- Run PS as Administrator: 
+	`Install-Module oh-my-posh -Scope CurrentUser`
+- Run `notepad $profile` to add: 
+	```shell
+	Import-Module oh-my-posh
+	Set-PoshPrompt -Theme {theme name}
+	```
+- Display every available theme in the current directory: 
+	`Get-PoshThemes` 
+- Config these themes at: `Get-PoshThemes -list`
+
+## Aliases
+
+- Create `alias.ps1`
+- Run `notepad $profile` to add: `Import-Module "<Path file alias>"`
+- Get all aliases available: `Get-Alias`
+
+## Auto-suggestion
+[Predictive IntelliSense](https://devblogs.microsoft.com/powershell/announcing-psreadline-2-1-with-predictive-intellisense/)
+
+- Run PS as Administrator: 
+	`Install-Module PSReadLine -RequiredVersion 2.1.0`
+- Run `notepad $profile` to add: 
+	```shell
+	Import-Module PSReadLine
+	Set-PSReadLineOption -PredictionSource History
+	```
+
+## Move with Z
+- Run PS as Administrator: 
+	`Install-Module z -AllowClobber`
+- Run `notepad $profile` to add: 
+	```shell
+	Import-Module z
+	```
+
+## Post-git
+- Run PS as Administrator: 
+	`Install-Module posh-git -Scope CurrentUser`
+- Run `notepad $profile` to add: 
+	```shell
+	Import-Module posh-git
+	```
+
+
+
+
+
+
+
