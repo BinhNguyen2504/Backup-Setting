@@ -4,6 +4,11 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-weight: 700;
+}
+.mtk4 {
+  color: #A0C39D;
+  font-weight: 700;
 }
 .mtk18 {
   color: transparent;
@@ -11,6 +16,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-weight: 700;
 }
 .mtk17 {
   color: transparent;
@@ -18,6 +24,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-weight: 700;
 }
 .mtk13 {
   color: transparent;
@@ -25,6 +32,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-weight: 700;
 }
 .mtk16 {
   color: transparent;
@@ -32,10 +40,14 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  font-weight: 700;
+}
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container {
+  height: 3px;
+  background-image: linear-gradient(to right top, #fc6c8f, #ff2ced);
 }
 
-
-/*
+/* NOTE
 Install extension:
 Custom CSS and JS Loader
 Fix VSCode Checksums
@@ -48,3 +60,4 @@ Enable Custom CSS and JS -> Restart VSCode
 Fix Checksum: Restore
 Fix Checksum: Apply
 */
+

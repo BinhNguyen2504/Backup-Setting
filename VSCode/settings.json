@@ -1,20 +1,23 @@
 {
   "workbench.sideBar.location": "left",
-  "editor.fontSize": 15,
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/USER/AppData/Roaming/Code/User/color.css"
+  ],
   "editor.mouseWheelZoom": true,
+  "editor.bracketPairColorization.enabled": true,
   "workbench.colorTheme": "Dracula",
   "editor.fontLigatures": true,
   "emmet.triggerExpansionOnTab": true,
   "editor.minimap.enabled": true,
   "view-in-browser.customBrowser": "chrome",
   "open-in-browser.default": "chrome",
-  "workbench.statusBar.visible": true,
   "terminal.integrated.profiles.windows": {
     "GitBash": {
-      "path": "D:\\Git\\bin\\bash.exe",
+      "path": "D:\\Git\\bin\\bash.exe"
     }
   },
-  "terminal.integrated.defaultProfile.windows": "GitBash",
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "postcssSorting.config": {
     "properties-order": "alphabetical"
   },
@@ -35,18 +38,15 @@
     "source.fixAll": true,
     "source.fixAll.eslint": true
   },
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
   "C_Cpp.updateChannel": "Insiders",
   "sync.autoDownload": true,
   "sync.autoUpload": true,
   "sync.forceDownload": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   //=========================================================Copy from evondev
   "editor.fontFamily": "SF Mono, JetBrains Mono, Roboto Mono, Arial",
   "editor.wordWrap": "off",
-  "editor.lineHeight": 27,
+  "editor.lineHeight": 32,
   "editor.letterSpacing": 0.5,
   "files.trimTrailingWhitespace": true,
   "editor.cursorWidth": 3,
@@ -80,12 +80,20 @@
   "[jsx]": {
     "editor.tabSize": 2
   },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
   "[babel]": {
     "editor.tabSize": 2
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 4
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "gitlens.advanced.messages": {
@@ -273,7 +281,7 @@
   "editor.linkedEditing": true,
   "material-ui-snippets.showNotesOnStartup": false,
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
+    "*.ipynb": "jupyter-notebook"
   },
   "gitlens.codeLens.enabled": false,
   "prettier.jsxSingleQuote": true,
@@ -284,11 +292,145 @@
   "gitlens.defaultDateFormat": null,
   "gitlens.hovers.currentLine.over": "line",
   "extensions.autoUpdate": "onlyEnabledExtensions",
-  "files.autoSave": "afterDelay",
   "editor.cursorStyle": "line",
   "editor.insertSpaces": false,
   "editor.lineNumbers": "on",
-  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-"
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontWeight": 550,
+  "editor.wordWrapColumn": 100,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.cursorSmoothCaretAnimation": true,
+  "quokka.compactMessageOutput": true,
+  "cSpell.enabledLanguageIds": [
+    "csharp",
+    "go",
+    "javascript",
+    "javascriptreact",
+    "php",
+    "typescript",
+    "typescriptreact",
+    "yml"
+  ],
+  "cSpell.userWords": [
+    "adipisicing",
+    "amet",
+    "animi",
+    "apisauce",
+    "asperiores",
+    "aspernatur",
+    "autem",
+    "autohide",
+    "Avenir",
+    "Bình",
+    "Bình Nguyễn",
+    "binhnguyen",
+    "buồn",
+    "Chuỗi",
+    "cloudinary",
+    "clsx",
+    "CNTT",
+    "công",
+    "consectetur",
+    "contant",
+    "cuộc",
+    "Debitis",
+    "deleniti",
+    "describedby",
+    "điều",
+    "dodgerblue",
+    "được",
+    "elit",
+    "Formik",
+    "fuga",
+    "Hamedani",
+    "hehe",
+    "hiểu",
+    "hihi",
+    "horiz",
+    "huhu",
+    "inventore",
+    "ipsa",
+    "kiến",
+    "lách",
+    "liệu",
+    "middlewares",
+    "mình",
+    "neque",
+    "netinfo",
+    "ngắn",
+    "nghệ",
+    "ngôn",
+    "Nguyễn",
+    "Những",
+    "odit",
+    "Officiis",
+    "okela",
+    "rảnh",
+    "rarr",
+    "REACT_APP_LOCALSTORAGE_TOKEN_NAME",
+    "reduxjs",
+    "repellat",
+    "Roboto",
+    "similique",
+    "sống",
+    "Swipeable",
+    "thằng",
+    "thêm",
+    "thuật",
+    "thức",
+    "toastify",
+    "todos",
+    "trang",
+    "trình",
+    "trong",
+    "Udemy",
+    "veniam",
+    "Vercel",
+    "viên",
+    "viết"
+  ],
+  "color-highlight.markerType": "underline",
+  "indentRainbow.colors": [
+    // "rgba(3,4,94,0.125)",
+    // "rgba(2,62,138,0.125)",
+    // "rgba(0,119,182,0.125)",
+    // "rgba(0,150,199,0.125)",
+    // "rgba(0,180,216,0.125)",
+    // "rgba(72,202,228,0.125)",
+    // "rgba(144,224,239,0.125)"
+
+    // "rgba(255,255,64,0.07)",
+    // "rgba(127,255,127,0.07)",
+    // "rgba(255,127,255,0.07)",
+    // "rgba(79,236,236,0.07)"
+
+    "rgba(247, 37, 133,0.2)",
+    "rgba(181, 23, 158,0.2)",
+    "rgba(114, 9, 183, 0.2)",
+    "rgba(86, 11, 173,0.2)",
+    "rgba(72, 12, 168,0.2)",
+    "rgba(58, 12, 163,0.2)",
+    "rgba(63, 55, 201,0.2)",
+    "rgba(67, 97, 238,0.2)",
+    "rgba(72, 149, 239,0.2)",
+    "rgba(76, 201, 240,0.2)"
+
+    // "rgba(3,4,94,0.5)",
+    // "rgba(2, 62, 138,0.5)",
+    // "rgba(0, 119, 182, 0.5)",
+    // "rgba(0, 150, 199,0.5)",
+    // "rgba(0, 180, 216,0.5)",
+    // "rgba(72, 202, 228,0.5)",
+    // "rgba(144, 224, 239,0.5)",
+    // "rgba(173, 232, 244,0.5)",
+    // "rgba(202, 240, 248,0.5)"
+  ],
+  "files.autoSave": "afterDelay",
+  "window.zoomLevel": 1
 }
 //"editor.fontFamily": " 'Operator Mono', Consolas, 'Courier New', monospace",
 // "editor.fontFamily": "Fira Code Retina",
@@ -300,3 +442,4 @@
 // "tab.activeBorderTop": "#6D4FA7",
 // "tab.inactiveBackground": "#191A22",
 // "panel.border": "#6D4FA7",
+// "terminal.integrated.defaultProfile.windows": "GitBash",
