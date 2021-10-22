@@ -3,12 +3,8 @@
   "vscode_custom_css.imports": [
     "file:///C:/Users/USER/AppData/Roaming/Code/User/color.css"
   ],
-  "editor.mouseWheelZoom": true,
-  "editor.bracketPairColorization.enabled": true,
   "workbench.colorTheme": "Dracula",
-  "editor.fontLigatures": true,
   "emmet.triggerExpansionOnTab": true,
-  "editor.minimap.enabled": true,
   "view-in-browser.customBrowser": "chrome",
   "open-in-browser.default": "chrome",
   "terminal.integrated.profiles.windows": {
@@ -25,32 +21,46 @@
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.saveFileBeforeRun": true,
   "workbench.iconTheme": "material-icon-theme",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "bookmarks.navigateThroughAllFiles": true,
   "bookmarks.saveBookmarksInProject": true,
   "bookmarks.sideBar.expanded": true,
-  "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "eslint.codeAction.showDocumentation": {},
+  "C_Cpp.updateChannel": "Insiders",
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.forceDownload": true,
+  //======================================== Evondev
+  "editor.fontFamily": "SF Mono, JetBrains Mono, Roboto Mono, Arial",
+  "editor.wordWrap": "off",
+  "editor.lineHeight": 32,
+  "editor.letterSpacing": 0.5,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.eslint": true
   },
   "editor.tabSize": 2,
-  "C_Cpp.updateChannel": "Insiders",
-  "sync.autoDownload": true,
-  "sync.autoUpload": true,
-  "sync.forceDownload": true,
-  //=========================================================Copy from evondev
-  "editor.fontFamily": "SF Mono, JetBrains Mono, Roboto Mono, Arial",
-  "editor.wordWrap": "off",
-  "editor.lineHeight": 32,
-  "editor.letterSpacing": 0.5,
-  "files.trimTrailingWhitespace": true,
+  "editor.suggestSelection": "first",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.mouseWheelZoom": true,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.suggest.preview": true,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": true,
   "editor.cursorWidth": 3,
-  "editor.cursorBlinking": "solid",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.linkedEditing": true,
+  "editor.fontWeight": 550,
+  "editor.wordWrapColumn": 100,
+  "editor.cursorSmoothCaretAnimation": true,
+  "files.trimTrailingWhitespace": true,
   "explorer.confirmDelete": false,
   "workbench.colorCustomizations": {
     "sideBar.background": "#191a2e",
@@ -71,7 +81,8 @@
     "terminal.ansiGreen": "#20e3b2",
     "terminal.ansiYellow": "#FDE181",
     "terminal.ansiMagenta": "#ff6bcb",
-    "editorCursor.foreground": "#9a86fd"
+    "editorCursor.foreground": "#FFFE91",
+    "terminalCursor.foreground": "#FFFE91"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
@@ -82,7 +93,11 @@
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.matchBrackets": "never"
+  },
+  "[css]": {
+    "editor.matchBrackets": "never"
   },
   "[babel]": {
     "editor.tabSize": 2
@@ -96,6 +111,8 @@
     "editor.tabSize": 2
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterNames.enabled": "all",
   "gitlens.advanced.messages": {
     "suppressLineUncommittedWarning": true
   },
@@ -278,7 +295,6 @@
   "html-to-css-autocompletion.getSelectorsFromFileTypes": ["html", "php"],
   "html.format.templating": false,
   "php.validate.executablePath": "D:/xampp/php/php.exe",
-  "editor.linkedEditing": true,
   "material-ui-snippets.showNotesOnStartup": false,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
@@ -292,18 +308,11 @@
   "gitlens.defaultDateFormat": null,
   "gitlens.hovers.currentLine.over": "line",
   "extensions.autoUpdate": "onlyEnabledExtensions",
-  "editor.cursorStyle": "line",
-  "editor.insertSpaces": false,
-  "editor.lineNumbers": "on",
-  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "security.workspace.trust.untrustedFiles": "open",
-  "editor.fontWeight": 550,
-  "editor.wordWrapColumn": 100,
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "editor.cursorSmoothCaretAnimation": true,
   "quokka.compactMessageOutput": true,
   "cSpell.enabledLanguageIds": [
     "csharp",
@@ -346,6 +355,8 @@
     "elit",
     "Formik",
     "fuga",
+    "getTTFB",
+    "giphy",
     "Hamedani",
     "hehe",
     "hiểu",
@@ -369,12 +380,14 @@
     "odit",
     "Officiis",
     "okela",
+    "originalname",
     "rảnh",
     "rarr",
     "REACT_APP_LOCALSTORAGE_TOKEN_NAME",
     "reduxjs",
     "repellat",
     "Roboto",
+    "sidebar__darkmode",
     "similique",
     "sống",
     "Swipeable",
@@ -429,8 +442,8 @@
     // "rgba(173, 232, 244,0.5)",
     // "rgba(202, 240, 248,0.5)"
   ],
-  "files.autoSave": "afterDelay",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 2,
+  "files.autoSave": "afterDelay"
 }
 //"editor.fontFamily": " 'Operator Mono', Consolas, 'Courier New', monospace",
 // "editor.fontFamily": "Fira Code Retina",

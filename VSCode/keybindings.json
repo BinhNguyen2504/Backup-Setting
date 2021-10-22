@@ -66,5 +66,13 @@
   {
     "key": "ctrl+alt+left",
     "command": "editor.emmet.action.prevEditPoint"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "turboConsoleLog.displayLogMessage"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "-turboConsoleLog.displayLogMessage"
   }
 ]
