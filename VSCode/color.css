@@ -42,6 +42,11 @@
   -webkit-background-clip: text;
   font-weight: 700;
 }
+.monaco-editor .cursors-layer .cursor {
+  color: transparent;
+  background-image: linear-gradient(#fc6c8f, #ff2ced, #c850c0);
+}
+
 /* .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container {
   height: 3px;
   background-image: linear-gradient(to right top, #fc6c8f, #ff2ced);
@@ -70,6 +75,7 @@
   animation: gradient 5s ease alternate infinite;
   height: 2.5px;
 }
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
